@@ -1,0 +1,41 @@
+html{
+
+    scroll-behavior:smooth;
+
+}
+section{
+
+    scroll-margin-top:120px;
+
+}
+body {
+  background: var(--background);
+  color: var(--white);
+  font-family: var(--body-font);
+  overflow-x: hidden;
+}
+
+main {
+  overflow: hidden;
+}
+
+section {
+  padding: 120px 7%;
+}
+
+.container{
+
+    width:100%;
+
+    max-width:1400px;
+
+    margin:0 auto;
+
+    padding:0 32px;
+
+}
+
+::selection {
+  background: var(--primary);
+  color: white;
+}

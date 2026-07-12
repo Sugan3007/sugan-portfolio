@@ -1,0 +1,414 @@
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+
+    position:fixed;
+
+    top:20px;
+
+    left:0;
+
+    width:100%;
+
+    z-index:999;
+
+}
+
+/* Floating Card */
+
+.navbar-wrapper{
+
+    width:92%;
+
+    max-width:1450px;
+
+    margin:auto;
+
+    background:rgba(15,15,15,.75);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,.35);
+
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.navbar-container{
+
+    height:82px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.navbar-logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+.navbar-logo-box{
+
+    width:44px;
+
+    height:44px;
+
+    border-radius:14px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(
+    135deg,
+    var(--primary),
+    #B11238);
+
+    color:white;
+
+    font-size:1.2rem;
+
+}
+
+.navbar-logo span{
+
+    font-size:1.7rem;
+
+    font-weight:700;
+
+    font-family:var(--heading-font);
+
+    color:white;
+
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+
+.navbar-nav{
+
+    display:flex;
+
+    gap:34px;
+
+}
+
+.navbar-link{
+
+    position:relative;
+
+    color:var(--text);
+
+    font-weight:500;
+
+    transition:.35s;
+
+}
+
+.navbar-link:hover{
+
+    color:white;
+
+}
+
+.navbar-link::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:var(--primary);
+
+    transition:.35s;
+
+}
+
+.navbar-link:hover::after{
+
+    width:100%;
+
+}
+
+/* ===========================
+   SOCIAL
+=========================== */
+
+.navbar-social{
+
+    display:flex;
+
+    gap:18px;
+
+}
+
+.navbar-social a{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#181818;
+
+    color:white;
+
+    transition:.35s;
+
+}
+
+.navbar-social a:hover{
+
+    background:var(--primary);
+
+    transform:translateY(-3px);
+
+}
+.mobile-toggle{
+
+    display:none;
+
+}
+@media(max-width:992px){
+
+.mobile-toggle{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+width:46px;
+
+height:46px;
+
+background:none;
+
+border:none;
+
+color:white;
+
+font-size:2rem;
+
+cursor:pointer;
+
+z-index:1002;
+
+}
+
+.navbar-menu{
+
+position:fixed;
+
+top:78px;
+
+right:-100%;
+
+width:280px;
+
+height:calc(100vh - 78px);
+
+background:#0d0d0d;
+
+display:flex;
+
+flex-direction:column;
+
+padding:40px;
+
+gap:28px;
+
+transition:.35s ease;
+
+border-left:1px solid rgba(255,255,255,.08);
+
+}
+
+.navbar-menu.active{
+
+right:0;
+
+}
+
+.navbar-social{
+
+display:none;
+
+}
+
+}
+/* ===========================
+   MOBILE MENU
+=========================== */
+
+.mobile-toggle{
+
+    display:none;
+
+    width:46px;
+
+    height:46px;
+
+    border:none;
+
+    background:none;
+
+    color:white;
+
+    font-size:2rem;
+
+    cursor:pointer;
+
+    z-index:1200;
+
+}
+
+.mobile-social{
+
+    display:none;
+
+}
+
+@media (max-width:992px){
+
+.desktop-social{
+
+display:none;
+
+}
+
+.mobile-toggle{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+}
+
+.navbar-nav{
+
+position:fixed;
+
+top:78px;
+
+right:-100%;
+
+width:280px;
+
+height:calc(100vh - 78px);
+
+background:#0b0b0b;
+
+border-left:1px solid rgba(255,255,255,.08);
+
+display:flex;
+
+flex-direction:column;
+
+align-items:flex-start;
+
+padding:40px 30px;
+
+gap:28px;
+
+transition:.35s ease;
+
+z-index:1000;
+
+}
+
+.navbar-nav.active{
+
+right:0;
+
+}
+
+.mobile-social{
+
+display:flex;
+
+gap:18px;
+
+margin-top:30px;
+
+padding-top:25px;
+
+border-top:1px solid rgba(255,255,255,.08);
+
+width:100%;
+
+}
+
+.mobile-social a{
+
+width:46px;
+
+height:46px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.04);
+
+color:white;
+
+transition:.35s;
+
+}
+
+.mobile-social a:hover{
+
+background:var(--primary);
+
+transform:translateY(-3px);
+
+}
+
+}

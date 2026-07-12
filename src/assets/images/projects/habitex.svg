@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 432">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-family: CascadiaMono-Roman, 'Cascadia Mono';
+        font-size: 10px;
+        font-variation-settings: 'wght' 400;
+        letter-spacing: .25em;
+      }
+
+      .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        font-family: NightVengeanceDEMO, 'Night Vengeance';
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 72px;
+      }
+
+      .cls-3 {
+        font-family: Pacifico-Regular, Pacifico;
+      }
+
+      .cls-6 {
+        fill: #ee212a;
+      }
+    </style>
+  </defs>
+  <rect class="cls-6" x="144" y="72" width="288" height="288" rx="42.75" ry="42.75"/>
+  <g>
+    <g>
+      <text class="cls-3" transform="translate(230.23 225.99)"><tspan x="0" y="0">abit</tspan></text>
+      <rect class="cls-5" x="190.42" y="171.22" width="6.13" height="52.78"/>
+      <text class="cls-2" transform="translate(179.11 224.16)"><tspan x="0" y="0">H</tspan></text>
+    </g>
+    <g>
+      <polygon class="cls-1" points="349.42 222.85 393.84 150.87 395.89 168.51 372.65 194.55 358.61 227.19 349.42 222.85"/>
+      <polygon class="cls-5" points="388.54 226.26 348.41 151.8 364.71 158.85 375.64 191.99 396.89 220.47 388.54 226.26"/>
+    </g>
+  </g>
+  <text class="cls-4" transform="translate(183.94 244.47)"><tspan x="0" y="0">Track you Habits with US</tspan></text>
+</svg>

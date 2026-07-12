@@ -1,0 +1,47 @@
+:root{
+
+    /* COLORS */
+
+    --primary:#E11D48;
+    --primary-light:#FF4D6D;
+
+    --background:#050505;
+
+    --surface:#111111;
+
+    --surface-hover:#191919;
+
+    --border:#262626;
+
+    --white:#FFFFFF;
+
+    --text:#CFCFCF;
+
+    --muted:#8F8F8F;
+
+    /* TYPOGRAPHY */
+
+    --heading-font:"Poppins",sans-serif;
+
+    --body-font:"Inter",sans-serif;
+
+    /* LAYOUT */
+
+    --container-width:1400px;
+
+    --section-padding:120px;
+
+    --transition:.35s ease;
+
+    --radius:14px;
+
+}
+:root{
+
+    --primary:#E11D48;
+
+    --primary-hover:#F43F5E;
+
+    --primary-dark:#BE123C;
+
+}
