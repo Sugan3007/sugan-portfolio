@@ -160,12 +160,12 @@ function Hero() {
           </a>
 
           <a
-            href="/resume.pdf"
+           href="/resume/Sugantha_Balan_Resume.pdf"
             className="btn-secondary"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Download CV
+            Download Resume
           </a>
         </div>
 
