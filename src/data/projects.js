@@ -1,10 +1,34 @@
+import godOfWar from "../assets/images/projects/god-of-war.svg";
 import habitex from "../assets/images/projects/habitex.svg";
 import timetable from "../assets/images/projects/timetable.svg";
 import library from "../assets/images/projects/library.svg";
 
 const projects = [
-  {
+   {
     id: 1,
+    featured: true,
+    title: "God of War Cinematic Website",
+    category: "Entertainment Website",
+    image: godOfWar,
+
+    description:
+      "A cinematic fan website inspired by the God of War universe, featuring major game details, character information, immersive visuals, responsive layouts and a premium dark-themed user experience.",
+
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "CSS3",
+      "Responsive Design",
+      "React Icons",
+      "Vite",
+    ],
+
+    github: "https://github.com/Sugan3007/gow-cinematic",
+    live: "https://gow-cinematic.vercel.app/",
+  },
+  
+  {
+    id: 2,
 
     featured: true,
 
@@ -32,7 +56,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
 
     featured: false,
 
@@ -60,7 +84,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
 
     featured: false,
 
