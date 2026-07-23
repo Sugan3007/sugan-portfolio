@@ -1,11 +1,45 @@
+import blackmythwukong from "../assets/images/projects/wukong-logo.svg"
 import godOfWar from "../assets/images/projects/god-of-war.svg";
 import habitex from "../assets/images/projects/habitex.svg";
 import timetable from "../assets/images/projects/timetable.svg";
 import library from "../assets/images/projects/library.svg";
 
 const projects = [
+
+  {
+  id: 1,
+
+  title: "Black Myth: Wukong ",
+
+  category: "Frontend",
+
+  featured: true,
+
+  image: blackmythwukong,
+
+  description:
+    "A premium React.js encyclopedia inspired by Black Myth: Wukong featuring interactive game information, equipment, bosses, maps, items, lore, animations, and a modern responsive UI.",
+
+  technologies: [
+    "React.js",
+    "React Router",
+    "JavaScript",
+    "CSS3",
+    "Framer Motion",
+    "Responsive Design",
+    "Vite"
+  ],
+
+  github: "https://github.com/Sugan3007/black-myth-wukong",
+
+  live: "https://black-myth-wukong-6d1k.vercel.app/",
+
+  status: "Completed",
+
+  year: "2026"
+},
    {
-    id: 1,
+    id: 2,
     featured: true,
     title: "God of War Cinematic Website",
     category: "Entertainment Website",
@@ -28,7 +62,7 @@ const projects = [
   },
   
   {
-    id: 2,
+    id: 3,
 
     featured: true,
 
@@ -56,7 +90,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
 
     featured: false,
 
@@ -84,7 +118,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
 
     featured: false,
 
