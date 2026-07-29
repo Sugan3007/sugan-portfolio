@@ -85,7 +85,7 @@ function Hero() {
 
  const stats = [
   {
-    end: 4,
+    end: 6,
     suffix: "+",
     title: "Projects",
   },
@@ -98,7 +98,7 @@ function Hero() {
 
   {
     end: 2,
-    suffix: "",
+    suffix: "+",
     title: "Awards",
   },
 

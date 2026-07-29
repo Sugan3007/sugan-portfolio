@@ -83,19 +83,19 @@ function Footer() {
 
             <div>
 
-              <a href="YOUR_GITHUB">
+              <a href="https://github.com/Sugan3007/gow-cinematic">
 
                 <FiGithub/>
 
               </a>
 
-              <a href="YOUR_LINKEDIN">
+              <a href="https://www.linkedin.com/in/sugantha-balan-m-0630a9357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
 
                 <FiLinkedin/>
 
               </a>
 
-              <a href="YOUR_INSTAGRAM">
+              <a href="https://www.instagram.com/classy_sugan_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
 
                 <FiInstagram/>
 

@@ -1,13 +1,47 @@
-import blackmythwukong from "../assets/images/projects/wukong-logo.svg"
-import godOfWar from "../assets/images/projects/god-of-war.svg";
+import blackmythwukong from "../assets/images/projects/wukong-logo.png"
+import godOfWar from "../assets/images/projects/gow-icon.png";
 import habitex from "../assets/images/projects/habitex.svg";
 import timetable from "../assets/images/projects/timetable.svg";
 import library from "../assets/images/projects/library.svg";
+import eldenring from "../assets/images/projects/elden-ring.png";
 
 const projects = [
 
   {
   id: 1,
+
+  title: "Elden Ring Fan Website",
+
+  category: "Frontend",
+
+  featured: true,
+
+  image: eldenring,
+
+  description:
+    "A cinematic React.js fan website inspired by Elden Ring, featuring immersive storytelling, detailed lore, bosses, interactive exploration, animations, and a premium dark fantasy interface.",
+
+  technologies: [
+    "React.js",
+    "React Router",
+    "JavaScript",
+    "CSS3",
+    "Framer Motion",
+    "Vite",
+    "Responsive Design"
+  ],
+
+  github: "https://github.com/Sugan3007/elden-ring-fan",
+
+  live: "https://elden-ring-fan.vercel.app/universe/elden-ring",
+
+  status: "Completed",
+
+  year: "2026"
+},
+
+  {
+  id: 2,
 
   title: "Black Myth: Wukong ",
 
@@ -39,7 +73,7 @@ const projects = [
   year: "2026"
 },
    {
-    id: 2,
+    id: 3,
     featured: true,
     title: "God of War Cinematic Website",
     category: "Entertainment Website",
@@ -62,7 +96,7 @@ const projects = [
   },
   
   {
-    id: 3,
+    id: 4,
 
     featured: true,
 
@@ -90,7 +124,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
 
     featured: false,
 
@@ -118,7 +152,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
 
     featured: false,
 
